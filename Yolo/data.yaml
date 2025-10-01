@@ -1,0 +1,13 @@
+train: C:/Users/USER/Documents/Repos/Projects/Yolo/train/images
+val: C:/Users/USER/Documents/Repos/Projects/Yolo/valid/images
+test: C:/Users/USER/Documents/Repos/Projects/Yolo/test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-players-detection-3zvbc
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/9
